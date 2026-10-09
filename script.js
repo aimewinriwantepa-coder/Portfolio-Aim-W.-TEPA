@@ -44,10 +44,11 @@ const REGLAGES = {
 
     // Ton CV : mets le chemin du fichier, par exemple "cv/CV-Aime-TEPA.pdf".
     // Laisse "" tant que tu n'as pas le fichier : le bouton reste caché.
-    cv: "",
+    cv: "Cv/CV-Aime-W-TEPA-EN.pdf",
+    cv: "Cv/CV-Aime-W-TEPA-VF.pdf",
 
     // Ton adresse e-mail, par exemple "prenom@exemple.com". Laisse "" pour ne rien afficher.
-    email: "",
+    email: "aimewinriwantepa@gmail.com",
 
     // Tes réseaux sociaux. Retire les // devant une ligne et complète l'adresse.
     reseaux: [

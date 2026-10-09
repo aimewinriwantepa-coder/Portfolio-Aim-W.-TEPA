@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>À propos | Aimé W. TEPA</title>
+    <meta name="description" content="Parcours de Aimé W. TEPA : maintenancier informatique, web designer et graphiste, en formation en développement web.">
+    <meta name="theme-color" content="#060b18">
+    <meta name="color-scheme" content="dark">
+
+    <!-- Aperçu lors d'un partage (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:title" content="À propos | Aimé W. TEPA">
+    <meta property="og:description" content="Parcours de Aimé W. TEPA : maintenancier informatique, web designer et graphiste, en formation en développement web.">
+
+    <!-- Icône de l'onglet : dépose un fichier images/favicon.png puis retire les symboles de commentaire
+    <link rel="icon" href="images/favicon.png"> -->
+
+    <!-- Active le mode "JavaScript" tout de suite pour éviter un affichage qui saute -->
+    <script>document.documentElement.classList.add('js');</script>
+
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <!-- ========================================
+         MENU DE NAVIGATION
+         Pour ajouter une page : copie un <li> et change le lien.
+    ========================================= -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navigation principale">
+
+            <a href="index.html" class="logo" aria-label="Aimé W. TEPA, retour à l'accueil">Aimé <span>W.TEPA</span></a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+                <span class="menu-toggle-label">Menu</span>
+                <span class="menu-toggle-icon" aria-hidden="true"></span>
+            </button>
+
+            <ul class="nav-links" id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html" aria-current="page">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="contact.html" class="btn btn-sm">Me contacter</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="contenu">
+
+        <!-- En-tête de la page -->
+        <section class="page-hero wrap">
+            <h1 data-enter style="--i:0">À <em class="accent">propos</em></h1>
+            <p data-enter style="--i:1">Maintenancier informatique, web designer et graphiste, en formation dans le développement web.</p>
+        </section>
+
+        <section class="section section-alt" aria-labelledby="titre-parcours">
+            <div class="wrap about">
+
+                <!-- Panneau de gauche : pour mettre une photo à la place des lettres,
+                     remplace <div class="monogram">...</div> par <img src="images/profile.png" alt="Portrait de Aimé W. TEPA"> -->
+                <div class="about-visual" data-reveal>
+                    <div class="about-visual-bg" aria-hidden="true"></div>
+                    <div class="orb-photo">
+                    <img src="images/profile.png" width="363" height="423"
+                        alt="Portrait de Aimé W. TEPA" fetchpriority="high">
+                </div>
+                    <div class="about-badge">
+                        <strong data-count="6" data-suffix="+">6+</strong>
+                        <span>années<br>d'expérience</span>
+                    </div>
+                </div>
+
+                <div class="about-copy" data-reveal>
+                    <p class="eyebrow">À propos</p>
+                    <h2 id="titre-parcours">Passionné par le <span class="accent">digital</span> &amp; l'innovation</h2>
+                    <p>
+                        Je suis <strong>Aimé W. TEPA</strong>, professionnel du digital maintenancier informatique, web designer et graphiste. Je suis actuellement en formation dans le domaine du développement web,
+                         avec HTML, CSS et JavaScript.
+                    </p>
+                    <p>
+                        Je possède environ 6 ans d'expérience en maintenance informatique, 5 ans dans le web design et 4 ans dans le graphisme.
+                         Cette combinaison me permet de répondre à des besoins très différents : remettre un ordinateur en état, créer une identité visuelle ou concevoir un site web.
+                    </p>
+                    <p>
+                        <strong>Ma mission :</strong> Transformer vos idées en expériences digitales modernes,
+                        performantes et mémorables. Chaque projet est une opportunité
+                        de dépasser vos attentes.
+                    </p>
+                    <p>Je travaille au Bénin et à distance, pour des particuliers, des entreprises et des organisations.</p>
+
+                    <!-- Les 4 atouts : modifie les textes comme tu veux -->
+                    <ul class="feature-grid">
+                        <li>Délais respectés</li>
+                        <li>Curiosité constante</li>
+                        <li>Formation continue</li>
+                        <li>Assistance informatique</li>
+                    </ul>
+
+                    <!-- Pour modifier : change le chiffre dans style="--years:6" et le texte -->
+                    <ul class="experience" data-bars>
+                        <li style="--years:6"><span class="exp-name">Maintenance informatique</span><span class="exp-years">6 ans d'expériences</span><span class="exp-bar" aria-hidden="true"></span></li>
+                        <li style="--years:5"><span class="exp-name">Web design</span><span class="exp-years">5 ans d'expériences</span><span class="exp-bar" aria-hidden="true"></span></li>
+                        <li style="--years:4"><span class="exp-name">Graphisme</span><span class="exp-years">4 ans d'expériences</span><span class="exp-bar" aria-hidden="true"></span></li>
+                        <li style="--years:1"><span class="exp-name">Developpement web</span><span class="exp-years">en formation</span><span class="exp-bar" aria-hidden="true"></span></li>
+                    </ul>
+
+                    <p style="margin-top:34px"><a href="contact.html" class="btn">Me contacter</a></p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="titre-valeurs">
+            <div class="wrap">
+                <header class="section-head" data-reveal>
+                    <h2 id="titre-valeurs">Ma façon de travailler</h2>
+                    <p>Trois qualités qui comptent pour moi dans chaque mission.</p>
+                </header>
+                <ul class="values-list" data-stagger>
+                    <li class="card" data-spot><h3>Ponctuel</h3><p>Je respecte les délais convenus et je préviens dès qu'un imprévu se présente.</p></li>
+                    <li class="card" data-spot><h3>Curieux</h3><p>J'aime comprendre un besoin en profondeur avant de proposer une solution.</p></li>
+                    <li class="card" data-spot><h3>Toujours en apprentissage</h3><p>Je me forme au développement web pour offrir des solutions plus complètes.</p></li>
+                </ul>
+                <p class="note" data-reveal>
+                    Mon objectif : construire une carrière solide dans le domaine
+                    de l'informatique et continuer à développer mes compétences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Appel à l'action -->
+        <section class="section" aria-labelledby="titre-cta">
+            <div class="wrap">
+                <div class="card cta-panel" data-reveal>
+                    <div class="cta-simple" style="grid-column:1/-1">
+                        <div>
+                            <h2 id="titre-cta">Travaillons ensemble</h2>
+                            <p>Vous avez un projet informatique, graphique ou web ? Parlons-en.</p>
+                        </div>
+                        <a href="contact.html" class="btn">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================
+         PIED DE PAGE
+    ========================================= -->
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="logo">Aimé <span>W.TEPA</span></a>
+                    <p>Maintenancier informatique, web designer et graphiste. Disponible au Bénin et à distance.</p>
+                </div>
+                <div>
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Me joindre</h2>
+                    <ul data-reseaux hidden></ul>
+                    <p>Écrivez-moi sur WhatsApp ou par téléphone depuis la page Contact.</p>
+                </div>
+            </div>
+            <p class="copyright">© <span data-year>2026</span> Aimé W. TEPA. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Boutons flottants : retour en haut + WhatsApp (change le numéro dans le lien WhatsApp si besoin) -->
+    <div class="float-actions">
+        <a class="to-top" href="#" aria-label="Remonter en haut de la page">
+            <svg class="to-top-ring" viewBox="0 0 48 48" aria-hidden="true">
+                <circle class="ring-bg" cx="24" cy="24" r="22"/>
+                <circle class="ring-fg" cx="24" cy="24" r="22"/>
+            </svg>
+            <svg class="to-top-arrow" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 15 12 9 18 15"/></svg>
+        </a>
+        <a class="wa-float" href="https://wa.me/2290152793504" data-whatsapp target="_blank" rel="noopener"
+            aria-label="Discuter sur WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            <span class="wa-label" aria-hidden="true">Discuter sur WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="script.js" onerror="document.documentElement.classList.remove('js')"></script>
+</body>
+
+</html>

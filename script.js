@@ -60,7 +60,7 @@ const REGLAGES = {
     // Avis de vrais clients (avec leur accord). Tant que la liste est vide,
     // la section "Ils m'ont fait confiance" reste cachée.
     avis: [
-        // { texte: "Travail soigné et livré dans les délais.", nom: "Prénom Nom", role: "Entreprise ou fonction" }
+        // { texte: "Collaborer avec Aimé TEPA a été une excellente expérience. Il a réalisé de magnifiques couvertures pour les Éditions Lucioles, alliant créativité et professionnalisme. Un graphiste talentueux que je recommande sans hésiter !.", nom: "Arthur OGOU", role: "PDG Éditions Lucioles" }
     ]
 };
 
